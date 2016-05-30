@@ -146,51 +146,23 @@ table {
 /*========================================================================== */
 /*========================================================================== */
 @font-face {
-  font-family: "GeorgiaRegular";
-  src: url('/site/assets/fonts/Georgia/GeorgiaRegular/GeorgiaRegular.eot');
-  src: url('/site/assets/fonts/Georgia/GeorgiaRegular/GeorgiaRegular.eot?#iefix') format('embedded-opentype'), url('/site/assets/fonts/Georgia/GeorgiaRegular/GeorgiaRegular.woff') format('woff'), url('/site/assets/fonts/Georgia/GeorgiaRegular/GeorgiaRegular.ttf') format('truetype'), url('/site/assets/fonts/Georgia/GeorgiaRegular/GeorgiaRegular.svg') format('svg');
+  font-family: "WorkSansBold";
+  src: url('/src/assets/fonts/WorkSans/WorkSansBold/WorkSansBold.eot');
+  src: url('/src/assets/fonts/WorkSans/WorkSansBold/WorkSansBold.eot?#iefix') format('embedded-opentype'), url('/src/assets/fonts/WorkSans/WorkSansBold/WorkSansBold.woff') format('woff'), url('/src/assets/fonts/WorkSans/WorkSansBold/WorkSansBold.ttf') format('truetype'), url('/src/assets/fonts/WorkSans/WorkSansBold/WorkSansBold.svg') format('svg');
   font-weight: bold;
   font-style: normal;
 }
 @font-face {
-  font-family: "PTSansBold";
-  src: url('/site/assets/fonts/PTSans/PTSansBold/PTSansBold.eot');
-  src: url('/site/assets/fonts/PTSans/PTSansBold/PTSansBold.eot?#iefix') format('embedded-opentype'), url('/site/assets/fonts/PTSans/PTSansBold/PTSansBold.woff') format('woff'), url('/site/assets/fonts/PTSans/PTSansBold/PTSansBold.ttf') format('truetype'), url('/site/assets/fonts/PTSans/PTSansBold/PTSansBold.svg') format('svg');
+  font-family: "WorkSansMedium";
+  src: url('/src/assets/fonts/WorkSans/WorkSansMedium/WorkSansMedium.eot');
+  src: url('/src/assets/fonts/WorkSans/WorkSansMedium/WorkSansMedium.eot?#iefix') format('embedded-opentype'), url('/src/assets/fonts/WorkSans/WorkSansMedium/WorkSansMedium.woff') format('woff'), url('/src/assets/fonts/WorkSans/WorkSansMedium/WorkSansMedium.ttf') format('truetype'), url('/src/assets/fonts/WorkSans/WorkSansMedium/WorkSansMedium.svg') format('svg');
   font-weight: bold;
   font-style: normal;
 }
 @font-face {
-  font-family: "PTSansCaptionBold";
-  src: url('/site/assets/fonts/PTSans/PTSansCaptionBold/PTSansCaptionBold.eot');
-  src: url('/site/assets/fonts/PTSans/PTSansCaptionBold/PTSansCaptionBold.eot?#iefix') format('embedded-opentype'), url('/site/assets/fonts/PTSans/PTSansCaptionBold/PTSansCaptionBold.woff') format('woff'), url('/site/assets/fonts/PTSans/PTSansCaptionBold/PTSansCaptionBold.ttf') format('truetype'), url('/site/assets/fonts/PTSans/PTSansCaptionBold/PTSansCaptionBold.svg') format('svg');
-  font-weight: bold;
-  font-style: normal;
-}
-@font-face {
-  font-family: "PTSansRegular";
-  src: url('/site/assets/fonts/PTSans/PTSansRegular/PTSansRegular.eot');
-  src: url('/site/assets/fonts/PTSans/PTSansRegular/PTSansRegular.eot?#iefix') format('embedded-opentype'), url('/site/assets/fonts/PTSans/PTSansRegular/PTSansRegular.woff') format('woff'), url('/site/assets/fonts/PTSans/PTSansRegular/PTSansRegular.ttf') format('truetype'), url('/site/assets/fonts/PTSans/PTSansRegular/PTSansRegular.svg') format('svg');
-  font-weight: bold;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'PTSerifBoldItalic';
-  src: url('/site/assets/fonts/PTSerif/PTSerifBoldItalic/PTSerifBoldItalic.eot');
-  src: url('/site/assets/fonts/PTSerif/PTSerifBoldItalic/PTSerifBoldItalic.eot?#iefix') format('embedded-opentype'), url('/site/assets/fonts/PTSerif/PTSerifBoldItalic/PTSerifBoldItalic.woff') format('woff'), url('/site/assets/fonts/PTSerif/PTSerifBoldItalic/PTSerifBoldItalic.ttf') format('truetype'), url('/site/assets/fonts/PTSerif/PTSerifBoldItalic/PTSerifBoldItalic.svg') format('svg');
-  font-weight: bold;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'PTSerifItalic';
-  src: url('/site/assets/fonts/PTSerif/PTSerifItalic/PTSerifItalic.eot');
-  src: url('/site/assets/fonts/PTSerif/PTSerifItalic/PTSerifItalic.eot?#iefix') format('embedded-opentype'), url('/site/assets/fonts/PTSerif/PTSerifItalic/PTSerifItalic.woff') format('woff'), url('/site/assets/fonts/PTSerif/PTSerifItalic/PTSerifItalic.ttf') format('truetype'), url('/site/assets/fonts/PTSerif/PTSerifItalic/PTSerifItalic.svg') format('svg');
-  font-weight: bold;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'PTSerifRegular';
-  src: url('/site/assets/fonts/PTSerif/PTSerifRegular/PTSerifRegular.eot');
-  src: url('/site/assets/fonts/PTSerif/PTSerifRegular/PTSerifRegular.eot?#iefix') format('embedded-opentype'), url('/site/assets/fonts/PTSerif/PTSerifRegular/PTSerifRegular.woff') format('woff'), url('/site/assets/fonts/PTSerif/PTSerifRegular/PTSerifRegular.ttf') format('truetype'), url('/site/assets/fonts/PTSerif/PTSerifRegular/PTSerifRegular.svg') format('svg');
+  font-family: "WorkSansRegular";
+  src: url('/src/assets/fonts/WorkSansRegular/WorkSansRegular/WorkSansRegular.eot');
+  src: url('/src/assets/fonts/WorkSansRegular/WorkSansRegular/WorkSansRegular.eot?#iefix') format('embedded-opentype'), url('/src/assets/fonts/WorkSansRegular/WorkSansRegular/WorkSansRegular.woff') format('woff'), url('/src/assets/fonts/WorkSansRegular/WorkSansRegular/WorkSansRegular.ttf') format('truetype'), url('/src/assets/fonts/WorkSansRegular/WorkSansRegular/WorkSansRegular.svg') format('svg');
   font-weight: bold;
   font-style: normal;
 }
@@ -234,6 +206,10 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
 }
 /*========================================================================== */
 /*========================================================================== */
+.p-page {
+  width: 1150px;
+  margin: 0 auto;
+}
 /*========================================================================== */
 /*========================================================================== */
 .g-loader {
@@ -249,17 +225,81 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
 .g-loader-inner {
   width: 0;
 }
-/*========================================================================== */
-/*========================================================================== */
+.clearfix {
+  content: "";
+  display: table;
+  clear: both;
+}
+.g-button {
+  color: #fff;
+  font-size: 15px;
+  font-family: "WorkSansBold";
+  border: 2px solid #000;
+}
 /*========================================================================== */
 /*========================================================================== */
 /*========================================================================== */
 /*========================================================================== */
 /* inject:imports */
-.block .test {
-  display: block;
+.b-articles .main-articles {
+  width: 100%;
 }
-.block .test2 {
-  display: block;
+.b-articles .main-articles .b-article.big {
+  width: 650px;
+  float: left;
+}
+.b-articles .main-articles .b-article.big footer .content {
+  font-size: 40px;
+}
+.b-articles .main-articles .b-article.medium {
+  width: 500px;
+  float: left;
+}
+.b-articles .main-articles .b-article.medium footer .content {
+  font-size: 25px;
+}
+.b-article {
+  position: relative;
+}
+.b-article img {
+  max-width: 100%;
+  height: auto;
+}
+.b-article footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.3);
+}
+.b-article footer .type {
+  position: absolute;
+  top: 0;
+  display: inline-block;
+  background: #fff;
+  color: #000;
+  font-size: 12px;
+  font-family: "WorkSansBold";
+  text-transform: uppercase;
+}
+.b-article footer .date {
+  color: #fff;
+  font-size: 15px;
+  font-family: "WorkSansMedium";
+}
+.b-article footer .content {
+  color: #fff;
+  font-size: 20px;
+  font-family: "WorkSansBold";
+}
+.b-main-nav ul {
+  float: right;
+}
+.b-main-nav ul li a {
+  color: #000;
+  font-size: 15px;
+  font-family: "WorkSansBold";
+  text-transform: uppercase;
+  text-decoration: none;
 }
 /* endinject */

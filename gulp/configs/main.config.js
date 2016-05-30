@@ -1,6 +1,8 @@
 module.exports = {
     paths:      {
-        styles:       './src/assets/styles',
+        styles:       [
+	        './src/assets/styles'
+        ],
         stylesBlocks: [
             './src/assets/styles/blocks.less',
             './src/assets/styles/blocks/*.less'
