@@ -6,7 +6,31 @@
 		width: 100%;
 	}
 
+	.articles {
+		position: relative;
+		overflow: hidden;
+		padding-bottom: 130px;
+
+		&-inner {
+			width: 1200px;
+			margin-left: -25px;
+		}
+
+		.b-article {
+			margin-left: 25px;
+			margin-right: 25px;
+			margin-bottom: 50px;
+		}
+
+		.g-button {
+			margin: -5px auto 0 auto;
+			.center-position-horizontally();
+		}
+	}
+
 	.main-articles {
+		margin-bottom: 50px;
+
 		.b-article {
 			&.big {
 				width: 650px;
@@ -24,7 +48,13 @@
 				float: left;
 
 				footer {
+					.date {
+						top: 27px;
+						left: 8px;
+					}
+
 					.content {
+						padding: 33px 47px 24px 47px;
 						font-size: 25px;
 					}
 				}
@@ -35,6 +65,14 @@
 
 .b-article {
 	position: relative;
+	display: inline-block;
+	vertical-align: top;
+	line-height: 0.7;
+
+	a {
+		.full-size();
+		z-index: 1;
+	}
 
 	img {
 		max-width: 100%;
@@ -48,21 +86,34 @@
 		width: 100%;
 		background: fade(@black, 30);
 
+		.transition(background);
+
 		.type {
 			position: absolute;
-			top: 0;
+			top: -36px;
 			display: inline-block;
+			padding: 14px 16px;
 			background: @white;
 			.font(12px, @WorkSansBold, @black);
 			text-transform: uppercase;
 		}
 
 		.date {
+			position: relative;
+			top: 16px;
+			left: 19px;
 			.font(15px, @WorkSansMedium, @white);
 		}
 
 		.content {
-			.font(20px, @WorkSansBold, @white);
+			.font(20px, @WorkSansBold, @white, 1.4);
+			padding: 24px 47px;
+		}
+	}
+
+	&:hover {
+		footer {
+			background: fade(@black, 90);
 		}
 	}
 }
